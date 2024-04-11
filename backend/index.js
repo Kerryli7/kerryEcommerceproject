@@ -262,6 +262,9 @@ app.post('/getcart', fetchuser, async (req, res) => {
   
     })
 
+    app.get('/backend/hello', (req, res) => {
+        res.send({ message: 'Hello from Vercel!' });
+      });
 
 
 
